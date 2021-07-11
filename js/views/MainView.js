@@ -10,15 +10,12 @@ export default class MainView {
                     <h5 class="card-title">${team.name} </h5>
                     <p class="card-text"> ${team.description}.</p>
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <button class="btnComprar">Open Project</button>
+                    <a class="btn btn-primary" target="_blank" href="${team.project}" role="button">Open Project</a>
                     </div>
                 </div>
             </div>`;
         }
-
         html += ` </div>`;
-
         $(padre).html(html);
-        $(".btnComprar").click(callback);
     }
 }
