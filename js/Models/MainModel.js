@@ -14,13 +14,11 @@ export default class MainModel {
         this.data.push(data)
     }
 
-    loadFromJson(jsfileName) {
-        return fetch(jsfileName)
-            .then(response =>  response.json())
-            .then(json => {
-                for (const data of json) {
-                    this.data.push(data)
-                }
-            });
+    async loadFromJson(jsfileName) {
+        const response = await fetch(jsfileName);
+        const json = await response.json();
+        for (const data of json) {
+            this.data.push(data);
+        }
     }
 }
