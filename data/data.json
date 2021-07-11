@@ -1,0 +1,34 @@
+[ 
+    {
+        "id": 862808669741907978,
+        "name": "Team 1",
+        "description": "Este es el equipo 1"
+    }, 
+    {
+        "id": 863831628723650581,
+        "name": "Team 2",
+        "description": "Este es el equipo 2"
+    },
+    {
+        "id": 863835103985532930,
+        "name": "Team 3",
+        "description": "Este es el equipo 3"
+    },
+    {
+        "id": 863835158755016704,
+        "name": "Team 4",
+        "description": "Este es el equipo 4"
+    },
+    {
+        "id": 863836061964828734,
+        "name": "Team 5",
+        "description": "Este es el equipo 5"
+    },
+    {
+        "id": 863836233163341834,
+        "name": "Team 6",
+        "description": "Este es el equipo 6"
+    }
+
+    
+]
