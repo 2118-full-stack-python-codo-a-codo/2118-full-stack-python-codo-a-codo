@@ -1,5 +1,5 @@
 import MainController from './controllers/MainController.js';
-import MainModel from './models/MainModel.js.js';
+import MainModel from './models/MainModel.js';
 import MainView from './views/MainView.js';
 import { ErrorComponent } from './components/Error.js';
 import {parseLocation, findActionByPath, routes } from './routes/router.js';
