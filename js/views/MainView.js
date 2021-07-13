@@ -1,11 +1,10 @@
 export default class MainView {
     show(padre, data, callback) {
         let html = ` <div class="row">`;
-        let team = data;
         for (const team of data) {
             html += ` <div class="col">
                 <div class="card mb-3">
-                <iframe src="https://discord.com/widget?id=863831628723650581&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                <iframe src="https://discord.com/widget?id=${team.id}&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                     <div class="card-body">
                     <h5 class="card-title">${team.name} </h5>
                     <p class="card-text"> ${team.description}.</p>

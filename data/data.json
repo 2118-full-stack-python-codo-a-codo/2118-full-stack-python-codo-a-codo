@@ -1,40 +1,38 @@
 [ 
     {
-        "id": 862808669741907978,
+        "id": "862808669741907978",
         "name": "Team 1",
         "description": "Este es el equipo 1",
         "project": "https://github.com/AguSandoval/Team-1-Codo-a-Codo"
     }, 
     {
-        "id": 863831628723650581,
+        "id": "863831628723650581",
         "name": "Team 2",
         "description": "Este es el equipo 2",
         "project": "https://github.com/codo-a-codo-python-2018-team2/tpo2-backend"
     },
     {
-        "id": 863835103985532930,
+        "id": "863835103985532930",
         "name": "Team 3",
         "description": "Este es el equipo 3",
         "project": "https://github.com/Team-3-CAC/Team-3"
     },
     {
-        "id": 863835158755016704,
+        "id": "863835158755016704",
         "name": "Team 4",
         "description": "Este es el equipo 4",
         "project": "https://github.com/Codo-a-Codo-4-0-Comision-2118-Team-4"
     },
     {
-        "id": 863836061964828734,
+        "id": "863836061964828734",
         "name": "Team 5",
         "description": "Este es el equipo 5",
         "project": "https://github.com/VictorBriAvi/CRUD-Djando"
     },
     {
-        "id": 863836233163341834,
+        "id": "863836233163341834",
         "name": "Team 6",
         "description": "Este es el equipo 6",
         "project": "https://github.com/Palaszczuk/Team-6.git"
-    }
-
-    
+    }    
 ]
